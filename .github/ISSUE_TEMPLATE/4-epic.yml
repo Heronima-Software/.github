@@ -8,6 +8,11 @@ body:
       label: Goal
       description: What the epic is, and what shipped means. Name no feature; the sub-issues are the list.
   - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What to know or read first. Empty when nothing is needed.
+  - type: textarea
     id: out-of-scope
     attributes:
       label: Out of scope
