@@ -6,7 +6,7 @@ body:
     id: goal
     attributes:
       label: Goal
-      description: What the epic is, and what shipped means.
+      description: What the epic is, and what shipped means. Name no feature; the sub-issues are the list.
   - type: textarea
     id: out-of-scope
     attributes:
