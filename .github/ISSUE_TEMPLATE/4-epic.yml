@@ -1,14 +1,14 @@
 name: Epic
-description: A version of a product
+description: A version of a product, or a feature too large for one story
 type: Epic
 body:
   - type: textarea
     id: goal
     attributes:
       label: Goal
-      description: What the version is, and what shipped means.
+      description: What the epic is, and what shipped means.
   - type: textarea
     id: out-of-scope
     attributes:
       label: Out of scope
-      description: What the version leaves out on purpose.
+      description: What was decided out, which no child can say. Empty when nothing was.
