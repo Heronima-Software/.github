@@ -3,10 +3,15 @@ description: Tasks delivered together
 type: Story
 body:
   - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What it is for, and what is true once it is done.
+  - type: textarea
     id: context
     attributes:
       label: Context
-      description: Why, and the links needed.
+      description: What to know or read first. Empty when nothing is needed.
   - type: textarea
     id: requirements
     attributes:
