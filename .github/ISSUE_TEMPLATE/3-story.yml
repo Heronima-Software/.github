@@ -1,0 +1,20 @@
+name: Story
+description: Tasks delivered together
+type: Story
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why, and the links needed.
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: One checkbox per item, each starting with Add, Change, Delete or Document.
+      value: "- [ ] "
+  - type: textarea
+    id: decisions
+    attributes:
+      label: Decisions
+      description: What was settled and why, kept current.

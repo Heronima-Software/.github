@@ -1,0 +1,14 @@
+name: Epic
+description: A version of a product
+type: Epic
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What the version is, and what shipped means.
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What the version leaves out on purpose.

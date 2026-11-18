@@ -1,0 +1,19 @@
+name: Bug
+description: Something that works wrongly
+type: Bug
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed
+      description: What happens, with the version and the environment.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+      description: What should happen.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduce
+      description: The shortest steps that show it.
