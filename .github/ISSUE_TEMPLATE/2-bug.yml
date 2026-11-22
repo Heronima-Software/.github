@@ -1,6 +1,7 @@
 name: Bug
 description: Something that works wrongly
 type: Bug
+assignees: nmhernandez10
 body:
   - type: textarea
     id: observed
