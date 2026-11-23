@@ -1,6 +1,7 @@
 name: Epic
 description: A version of a product, or a feature too large for one story
 type: Epic
+assignees: nmhernandez10
 body:
   - type: textarea
     id: goal

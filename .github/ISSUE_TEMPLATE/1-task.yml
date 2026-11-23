@@ -1,6 +1,7 @@
 name: Task
 description: One piece of work
 type: Task
+assignees: nmhernandez10
 body:
   - type: textarea
     id: goal

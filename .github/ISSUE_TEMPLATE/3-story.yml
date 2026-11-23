@@ -1,6 +1,7 @@
 name: Story
 description: Tasks delivered together
 type: Story
+assignees: nmhernandez10
 body:
   - type: textarea
     id: goal
